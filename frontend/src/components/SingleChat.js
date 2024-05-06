@@ -30,6 +30,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
+    
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
